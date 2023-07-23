@@ -1,3 +1,3 @@
 # ProjectEuler_1_50
 
-The first 50 problems from Project Euler.
+[PE-41: Pandigital Prime](doc/PE-41.md)
