@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProjectEuler_1_50.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="amicable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="champernownes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coded_triangle_numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coin_sums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="count_paths_thru_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_5_powers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_factorial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_fractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="distinct_powers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="double_base_palindromes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fibonacci_even_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="four_digit_3_prime_seq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="goldbach_other.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="integer_right_triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ith_prime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="large_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="largest_palindrome_product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lcm_1_20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="letter_counts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lex_order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="max_collatz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="max_prod_13_adj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="max_prod_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="name_score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="non_abundant_sums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pandigital_largest_prime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pandigital_multiples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pentagon_add_sub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_factor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_factors_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_sum_lt_million.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="primes_circular.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="primes_truncatable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quadratic_primes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rational_expansion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="self_powers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spec_pythag_triple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spiral_diagonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="substring_divisibility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sum_primes_2M.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sum_square_diff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sundays_first_of_month.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="three_or_five.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tri_pen_hex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_nr_gt_500_div.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_path_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="two_pow_1000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="names.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="words.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
