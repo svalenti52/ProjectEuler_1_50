@@ -23,13 +23,13 @@ u64 form_number_from_digits(vector<u64>& d)
 void pandigital_largest_prime()
 {
 	StopWatch s;
-	u64 base_10 = 1'000'000'000;
+	u64 base_10 = 10'000'000;
 	Primes_List pl(base_10);
 	s.stop();
 	vector<u64> digits = { 1, 2 }; 
 	vector<u64> prime_candidates;
 
-	for (u64 ix = 3; ix <= 9; ++ix)
+	for (u64 ix = 3; ix <= 7; ++ix) // 8-digit, 9-digit Pandigital cannot be prime because divisible by 3
 	{
 		digits.emplace_back(ix);
 		do
