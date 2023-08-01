@@ -170,4 +170,10 @@
       <Filter>Header Files</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+    <None Include="..\doc\PE-14.md" />
+    <None Include="..\doc\PE-41.md" />
+    <None Include="..\doc\PE-21.md" />
+  </ItemGroup>
 </Project>
