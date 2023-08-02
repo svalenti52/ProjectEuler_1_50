@@ -4,35 +4,42 @@
 #include <vector>
 #include <numeric>
 #include <iostream>
+#include <ranges>
 
 int sum_of_proper_divisors(int n)
 {
+	using namespace std;
+	using namespace ranges;
 	std::vector<int> divisors;
 
 	int ub = n / 2 + 1;
 
 	divisors.emplace_back(1);
-	for (int number = 2; number < ub; ++number)
-		if (n % number == 0)
-			divisors.emplace_back(number);
-	return std::accumulate(divisors.begin(), divisors.end(), 0);
+	for (int divisor = 2; divisor < ub; ++divisor)
+		if (n % divisor == 0)
+			divisors.emplace_back(divisor);
+	return fold_left(divisors, 0, plus());
 }
 
 void amicable_lt_10000()
 {
-	std::set<int> amicable; // automatically eliminate duplicates
+	using namespace std;
+	using namespace ranges;
 
-	for (int ix = 4; ix < 10'000; ++ix)
+	set<int> amicable; // automatically eliminate duplicates
+
+	for (int sopd_1 = 4; sopd_1 < 10'000; ++sopd_1)
 	{
-		int sopd = sum_of_proper_divisors(ix);
-		int comp = sum_of_proper_divisors(sopd);
-		if (comp == ix && ix != sopd) {
-			std::cout << ix << "-" << sopd << ", " << comp << '\n';
-			amicable.insert(ix);
-			amicable.insert(sopd);
+		int sopd_2 = sum_of_proper_divisors(sopd_1);
+		if (sopd_1 == sopd_2) continue;
+		if (sopd_1 == sum_of_proper_divisors(sopd_2)) {
+			std::cout << "-> " << sopd_1 << ", " << sopd_2 << '\n';
+			amicable.insert(sopd_2);
+			amicable.insert(sopd_1);
 		}
 	}
-	
-	int sum = std::accumulate(amicable.begin(), amicable.end(), 0);
-	std::cout << "Sum Amicable Numbers Less Than 10,000 = " << sum << '\n';
+
+	int sum = fold_left(amicable, 0, plus());
+
+	cout << "Sum Amicable Numbers Less Than 10,000 = " << sum << '\n';
 }
