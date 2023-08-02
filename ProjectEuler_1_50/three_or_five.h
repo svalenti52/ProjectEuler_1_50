@@ -5,7 +5,7 @@
 #include <iostream>
 #include <ranges>
 
-void three_or_five_sum()
+void three_or_five_sum_1()
 {
 	using namespace std;
 	using namespace ranges;

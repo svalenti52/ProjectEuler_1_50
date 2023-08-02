@@ -122,11 +122,11 @@ int main()
 			break;
 		case '3':
 			// ID 1
-			three_or_five_sum();
+			three_or_five_sum_1();
 			break;
 		case '4':
 			// ID 2
-			std::cout << "Sum of even fibonnci sequence <= 4,000,000 = " << fibo_even_sum(4'000'000) << '\n';
+			fibo_even_sum_2();
 			break;
 		case '5':
 			// ID 3
