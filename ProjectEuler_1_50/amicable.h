@@ -5,6 +5,7 @@
 #include <numeric>
 #include <iostream>
 #include <ranges>
+#include "../repos/Utilities/Utilities/print_containers.h"
 
 int sum_of_proper_divisors(int n)
 {
@@ -33,11 +34,12 @@ void amicable_lt_10000()
 		int sopd_2 = sum_of_proper_divisors(sopd_1);
 		if (sopd_1 == sopd_2) continue;
 		if (sopd_1 == sum_of_proper_divisors(sopd_2)) {
-			std::cout << "-> " << sopd_1 << ", " << sopd_2 << '\n';
 			amicable.insert(sopd_2);
 			amicable.insert(sopd_1);
 		}
 	}
+
+	print_space_sep_elements(amicable);
 
 	int sum = fold_left(amicable, 0, plus());
 
