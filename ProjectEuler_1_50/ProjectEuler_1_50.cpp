@@ -122,7 +122,7 @@ int main()
 			break;
 		case '3':
 			// ID 1
-			std::cout << "Sum of numbers below 1000 that are divisible by 3 or 5 = " << three_or_five_sum() << '\n';
+			three_or_five_sum();
 			break;
 		case '4':
 			// ID 2
