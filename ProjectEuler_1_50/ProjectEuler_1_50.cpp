@@ -130,7 +130,7 @@ int main()
 			break;
 		case '5':
 			// ID 3
-			std::cout << "Largest Prime Factor = " << largest_prime_factor(600851475143) << '\n';
+			largest_prime_factor_3();
 			break;
 		case '6':
 			// ID 4

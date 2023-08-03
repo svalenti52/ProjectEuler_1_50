@@ -5,20 +5,24 @@
 
 using u64 = uint64_t;
 
-u64 largest_prime_factor(u64 number)
+void largest_prime_factor_3()
 {
+	const u64 number = 600'851'475'143;
 	double square_root = sqrt(number);
 	u64 square_root_ll = static_cast<u64>(square_root);
 
 	Primes_List pl(square_root_ll);
 	Primes primes(pl, square_root_ll);
 
+	u64 largest_prime_divisor = 0;
+
 	for (auto rev_it = primes.get_last_index(); rev_it >= 2; --rev_it)
 	{
 		if (number % primes.get_ith_prime(rev_it) == 0)
 		{
-			return primes.get_ith_prime(rev_it);
+			largest_prime_divisor = primes.get_ith_prime(rev_it);
+			break;
 		}
 	}
-	return 0;
+	std::cout << "Largest Prime Factor = " << largest_prime_divisor << '\n';
 }
