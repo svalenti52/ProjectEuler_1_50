@@ -1,5 +1,8 @@
 ##3 Largest Prime Factor
 
-The prime factors of 13195 are 5,7, 13 and 29.
+> The prime factors of 13195 are 5,7, 13 and 29.
 
-What is the largest prime factor of the number 600851475143?
+> What is the largest prime factor of the number 600851475143?
+
+1. Reverse loop over a list of primes, starting with sqrt(600851475143) (approximate integral).
+	1. Test if each prime is a divisor of 600851475143, returning the first one that does.
