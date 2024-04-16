@@ -39,7 +39,7 @@ void amicable_lt_10000()
 		}
 	}
 
-	print_space_sep_elements(amicable);
+	print_::space_sep_elements(amicable);
 
 	int sum = fold_left(amicable, 0, plus());
 

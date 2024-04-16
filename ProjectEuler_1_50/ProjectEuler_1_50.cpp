@@ -1,6 +1,8 @@
 // ProjectEuler.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#define _SILENCE_CXX23_DENORM_DEPRECATION_WARNING
+
 #include <iostream>
 #include <vector>
 #include "..\..\MonteCarlo\MonteCarlo\Chronology.h"
